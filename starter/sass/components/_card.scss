@@ -1,7 +1,8 @@
 .card {
     perspective: 150rem;
     -moz-perspective: 150rem;
-    position: relative;
+    position: relative; 
+    height: 50rem;
     
     &__side {
         background-color: orangered;
@@ -13,6 +14,8 @@
         position: absolute;
         top: 0;
         left: 0;
+        width: 100%;
+        backface-visibility: hidden;
     
 
        &--front {
