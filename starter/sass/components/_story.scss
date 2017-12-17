@@ -7,6 +7,11 @@
     padding: 6rem;
     padding-left: 9rem;
     font-size: $default-font-size;
+    transform: skewX(-12deg);
+
+    & > * {
+        transform: skewX(12deg);
+    }
 
     &__shape {
         width: 15rem;
@@ -21,5 +26,9 @@
 
     &__img {
         height: 100%;
+    }
+
+    &__text {
+        transform: skewX(12deg);
     }
 }
